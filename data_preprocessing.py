@@ -32,7 +32,7 @@ torch.manual_seed(SEED)
 # ─────────────────────────────────────────────
 # CONSTANTS
 # ─────────────────────────────────────────────
-DATA_PATH = r"C:\Users\koush\Downloads\archive (1)\DiseaseAndSymptoms.csv"
+DATA_PATH = "data/DiseaseAndSymptoms.csv"
 
 # How many diseases to hold out as "rare" at test time
 NUM_RARE_DISEASES = 6

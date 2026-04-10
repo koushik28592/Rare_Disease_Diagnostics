@@ -97,7 +97,7 @@ def phase1_data(cfg):
     from data_preprocessing import build_feature_matrix, load_dataset
 
     data = prepare_all(
-    data_path=r"C:\Users\koush\Downloads\archive (1)\DiseaseAndSymptoms.csv",
+    data_path="data/DiseaseAndSymptoms.csv",
     num_rare=cfg["num_rare_diseases"],
     n_way=cfg["n_way"],
     k_shot=cfg["k_shot"],
